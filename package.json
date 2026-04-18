@@ -1,0 +1,18 @@
+{
+  "name": "xteink-epub-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare-epub-images": "node ./scripts/prepare-epub-images.js",
+    "prepare-epub-rotated-pages": "node ./scripts/prepare-epub-rotated-pages.js",
+    "prepare-xtc-images": "node ./scripts/prepare-xtc-images.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "fast-xml-parser": "^5.7.1",
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0",
+    "pureimage": "^0.4.18"
+  }
+}
