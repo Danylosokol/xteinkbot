@@ -2,8 +2,10 @@
 
 node_modules/
 .tmp/
+.vercel/
 
 *.landscape-images.epub
 *.rotated-image-pages.epub
 *.hybrid-pages.xtch
 *.landscape-images.xtch
+*.bot-test.epub

@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "vercel dev",
     "prepare-epub-images": "node ./scripts/prepare-epub-images.js",
     "prepare-epub-rotated-pages": "node ./scripts/prepare-epub-rotated-pages.js",
     "prepare-xtc-images": "node ./scripts/prepare-xtc-images.js"
@@ -13,6 +14,8 @@
     "fast-xml-parser": "^5.7.1",
     "jpeg-js": "^0.4.4",
     "pngjs": "^7.0.0",
-    "pureimage": "^0.4.18"
+    "pureimage": "^0.4.18",
+    "sharp": "^0.34.5",
+    "yazl": "^3.3.1"
   }
 }
